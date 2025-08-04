@@ -4,7 +4,6 @@ public:
         unordered_map<int, int> basket;
         int maxfruits = 0;
         int left = 0;
-
         for(int right = 0; right < fruits.size(); ++right)
         {
             basket[fruits[right]]++;
@@ -19,5 +18,4 @@ public:
         }
         return maxfruits;
     }
-    
 };
