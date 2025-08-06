@@ -1,3 +1,6 @@
+//T.C. : O(N*N)
+//S.C. : O(1)
+
 class Solution {
 public:
     int numOfUnplacedFruits(vector<int>& fruits, vector<int>& baskets) {
